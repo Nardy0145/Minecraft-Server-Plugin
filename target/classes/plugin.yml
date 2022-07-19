@@ -1,0 +1,26 @@
+name: Commands
+version: '1.0-SNAPSHOT'
+main: me.nardy.commands.Main
+api-version: 1.18
+commands:
+  whistle:
+    description: Whistle your mobs.
+    usage: /<command>
+  home:
+    description: Teleports player to home.
+    usage: /<command>
+  count:
+    description: Count nearby entities.
+    usage: /<command>
+  setwarp:
+    description: Set your warp.
+    usage: /<command>
+  warp:
+    description: Teleport to your warp.
+    usage: /<command>
+  delwarp:
+    description: Deletes your warp.
+    usage: /<command>
+  feed:
+    description: Feed animals.
+    usage: /<command>
